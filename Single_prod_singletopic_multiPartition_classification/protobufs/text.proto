@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package message;
+
+// Message carrying raw input text to be classified
+message TextMessage {
+  string text = 1;
+}
